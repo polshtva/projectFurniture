@@ -79,9 +79,37 @@ header .shop-cart{
     top: 30px;
     right: 0;
     width: 450px;
-    min-height: 100px;
     background-color: white;
     z-index: 1000;
     -webkit-box-shadow:9px -3px 28px 2px rgba(102, 102, 102, 1);
     box-shadow:  9px -3px 28px 2px rgba(102, 102, 102, 1);
+    padding: 20px 20px 0 20px;
+}
+
+header .shop-cart .item{
+    width: 100%;
+    background-color: white;
+    float: left;
+    margin-bottom: 20px;
+}
+
+header .shop-cart .item img{
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+header .shop-cart .item h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+header .shop-cart .item b{
+    color: #7b7979;
+    font-weight: 600;
+}
+
+header .shop-cart .empty h2{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
